@@ -23,9 +23,9 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
-                    <a class="nav-item nav-link" href="/">Home </a>
-                    <a class="nav-item nav-link" href="/about">About</a>
-                    <a class="nav-item nav-link" href="/mahasiswa">Contact</a>
+                    <a class="nav-item nav-link" href="{{ url('/') }}">Home </a>
+                    <a class="nav-item nav-link" href="{{ url('/about') }}">About</a>
+                    <a class="nav-item nav-link" href="{{ url('/mahasiswa') }}">Mahasiswa</a>
                 </div>
             </div>
         </div>
